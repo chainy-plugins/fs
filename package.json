@@ -1,0 +1,53 @@
+{
+  "title": "File System plugin for [ChainyJS](http://chainyjs.org)",
+  "name": "chainy-plugin-fs",
+  "version": "1.0.0",
+  "description": "Chainy custom plugin that adds the fs utility methods as chainy actions.",
+  "homepage": "https://github.com/chainy-plugins/fs",
+  "license": {
+    "type": "MIT"
+  },
+  "keywords": [
+    "chainy",
+    "chainy-addon",
+    "chainy-plugin",
+    "chainy-custom",
+    "fs"
+  ],
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "david": true,
+    "daviddev": true
+  },
+  "bugs": {
+    "url": "https://github.com/chainy-plugins/fs/issues"
+  },
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chainy-plugins/fs.git"
+  },
+  "author": "2014+ Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [],
+  "dependencies": {
+    "graceful-fs": "^3.0.2"
+  },
+  "peerDependencies": {
+    "chainy-core": "1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "projectz": "~0.3.14"
+  },
+  "scripts": {
+    "test": "node ./test/fs-test.js"
+  },
+  "main": "./lib/fs.js"
+}

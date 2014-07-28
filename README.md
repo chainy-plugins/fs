@@ -21,7 +21,7 @@
 
 <!-- DESCRIPTION/ -->
 
-Chainy plugin that adds the fs utility methods as chainy actions.
+Chainy custom plugin that adds the fs utility methods as chainy actions.
 
 <!-- /DESCRIPTION -->
 

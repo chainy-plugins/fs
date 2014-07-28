@@ -43,8 +43,12 @@
     "chainy-core": "1"
   },
   "devDependencies": {
-    "chai": "^1.9.1",
-    "projectz": "~0.3.14"
+    "chainy-plugin-set": "*",
+    "chainy-core": "1",
+    "joe": "~1.5.0",
+    "joe-reporter-console": "~1.2.1",
+    "chai": "~1.9.1",
+    "projectz": "~0.3.11"
   },
   "scripts": {
     "test": "node ./test/fs-test.js"
